@@ -1,0 +1,54 @@
+{
+  "id" : "1.36.102.1552017-08-19T072423.027341",
+  "url" : "https://s3.amazonaws.com/backdoored-io-images/1.36.102.1552017-08-19T072423.027341.jpg",
+  "labels" : [
+    {
+      "name" : "Reading",
+      "confidence" : 79.7979
+    },
+    {
+      "name" : "Bowl",
+      "confidence" : 66.21664
+    },
+    {
+      "name" : "Computer",
+      "confidence" : 59.80674
+    },
+    {
+      "name" : "Electronics",
+      "confidence" : 59.80674
+    },
+    {
+      "name" : "LCD Screen",
+      "confidence" : 59.80674
+    },
+    {
+      "name" : "Laptop",
+      "confidence" : 59.80674
+    },
+    {
+      "name" : "Pc",
+      "confidence" : 59.80674
+    },
+    {
+      "name" : "Fog",
+      "confidence" : 57.776196
+    },
+    {
+      "name" : "Cup",
+      "confidence" : 56.42923
+    },
+    {
+      "name" : "Pollution",
+      "confidence" : 53.486538
+    },
+    {
+      "name" : "Smog",
+      "confidence" : 53.486538
+    },
+    {
+      "name" : "Smoke",
+      "confidence" : 53.486538
+    }
+  ]
+}

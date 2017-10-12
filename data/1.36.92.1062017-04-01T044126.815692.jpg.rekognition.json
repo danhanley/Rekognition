@@ -1,0 +1,34 @@
+{
+  "id" : "1.36.92.1062017-04-01T044126.815692",
+  "url" : "https://s3.amazonaws.com/backdoored-io-images/1.36.92.1062017-04-01T044126.815692.jpg",
+  "labels" : [
+    {
+      "name" : "Floor",
+      "confidence" : 72.84199
+    },
+    {
+      "name" : "Flooring",
+      "confidence" : 72.84199
+    },
+    {
+      "name" : "Bathroom",
+      "confidence" : 59.121086
+    },
+    {
+      "name" : "Indoors",
+      "confidence" : 59.121086
+    },
+    {
+      "name" : "Art",
+      "confidence" : 52.380898
+    },
+    {
+      "name" : "Modern Art",
+      "confidence" : 52.380898
+    },
+    {
+      "name" : "Lighting",
+      "confidence" : 50.711147
+    }
+  ]
+}

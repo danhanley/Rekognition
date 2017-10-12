@@ -1,0 +1,62 @@
+{
+  "id" : "1.36.181.2322017-08-17T001603.894240",
+  "url" : "https://s3.amazonaws.com/backdoored-io-images/1.36.181.2322017-08-17T001603.894240.jpg",
+  "labels" : [
+    {
+      "name" : "People",
+      "confidence" : 98.94149
+    },
+    {
+      "name" : "Person",
+      "confidence" : 98.94151
+    },
+    {
+      "name" : "Human",
+      "confidence" : 98.89621
+    },
+    {
+      "name" : "Plant",
+      "confidence" : 67.07611
+    },
+    {
+      "name" : "Potted Plant",
+      "confidence" : 67.07611
+    },
+    {
+      "name" : "Night Club",
+      "confidence" : 54.65798
+    },
+    {
+      "name" : "Night Life",
+      "confidence" : 54.65798
+    },
+    {
+      "name" : "Bowl",
+      "confidence" : 53.953
+    },
+    {
+      "name" : "Apartment",
+      "confidence" : 52.462505
+    },
+    {
+      "name" : "Indoors",
+      "confidence" : 52.462505
+    },
+    {
+      "name" : "Interior Design",
+      "confidence" : 52.462505
+    },
+    {
+      "name" : "Living Room",
+      "confidence" : 52.462505
+    },
+    {
+      "name" : "Room",
+      "confidence" : 52.462505
+    },
+    {
+      "name" : "Bedroom",
+      "confidence" : 51.99801
+    }
+  ]
+}

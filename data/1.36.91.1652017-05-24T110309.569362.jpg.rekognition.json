@@ -1,0 +1,18 @@
+{
+  "id" : "1.36.91.1652017-05-24T110309.569362",
+  "url" : "https://s3.amazonaws.com/backdoored-io-images/1.36.91.1652017-05-24T110309.569362.jpg",
+  "labels" : [
+    {
+      "name" : "Playground",
+      "confidence" : 68.063225
+    },
+    {
+      "name" : "Art",
+      "confidence" : 50.902534
+    },
+    {
+      "name" : "Modern Art",
+      "confidence" : 50.902534
+    }
+  ]
+}

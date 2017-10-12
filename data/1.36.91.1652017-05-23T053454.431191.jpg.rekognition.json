@@ -1,0 +1,30 @@
+{
+  "id" : "1.36.91.1652017-05-23T053454.431191",
+  "url" : "https://s3.amazonaws.com/backdoored-io-images/1.36.91.1652017-05-23T053454.431191.jpg",
+  "labels" : [
+    {
+      "name" : "Bedroom",
+      "confidence" : 89.18611
+    },
+    {
+      "name" : "Indoors",
+      "confidence" : 89.18611
+    },
+    {
+      "name" : "Room",
+      "confidence" : 89.18611
+    },
+    {
+      "name" : "Banister",
+      "confidence" : 56.218536
+    },
+    {
+      "name" : "Handrail",
+      "confidence" : 56.218536
+    },
+    {
+      "name" : "Cup",
+      "confidence" : 53.443985
+    }
+  ]
+}

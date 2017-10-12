@@ -1,0 +1,38 @@
+{
+  "id" : "1.222.46.1162017-05-25T201200.604796",
+  "url" : "https://s3.amazonaws.com/backdoored-io-images/1.222.46.1162017-05-25T201200.604796.jpg",
+  "labels" : [
+    {
+      "name" : "Office",
+      "confidence" : 98.00829
+    },
+    {
+      "name" : "Room",
+      "confidence" : 98.00829
+    },
+    {
+      "name" : "Indoors",
+      "confidence" : 91.09154
+    },
+    {
+      "name" : "Library",
+      "confidence" : 91.09154
+    },
+    {
+      "name" : "Bench",
+      "confidence" : 57.040775
+    },
+    {
+      "name" : "Shop",
+      "confidence" : 55.308033
+    },
+    {
+      "name" : "Furniture",
+      "confidence" : 52.583557
+    },
+    {
+      "name" : "Interior Design",
+      "confidence" : 50.71677
+    }
+  ]
+}

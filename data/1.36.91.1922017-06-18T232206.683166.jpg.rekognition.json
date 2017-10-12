@@ -1,0 +1,34 @@
+{
+  "id" : "1.36.91.1922017-06-18T232206.683166",
+  "url" : "https://s3.amazonaws.com/backdoored-io-images/1.36.91.1922017-06-18T232206.683166.jpg",
+  "labels" : [
+    {
+      "name" : "Bedroom",
+      "confidence" : 62.62362
+    },
+    {
+      "name" : "Indoors",
+      "confidence" : 62.62362
+    },
+    {
+      "name" : "Room",
+      "confidence" : 62.62362
+    },
+    {
+      "name" : "X-Ray",
+      "confidence" : 53.837036
+    },
+    {
+      "name" : "Photo Booth",
+      "confidence" : 52.643074
+    },
+    {
+      "name" : "Console",
+      "confidence" : 51.763786
+    },
+    {
+      "name" : "Entertainment Center",
+      "confidence" : 50.563717
+    }
+  ]
+}

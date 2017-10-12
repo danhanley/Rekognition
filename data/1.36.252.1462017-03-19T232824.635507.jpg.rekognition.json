@@ -1,0 +1,14 @@
+{
+  "id" : "1.36.252.1462017-03-19T232824.635507",
+  "url" : "https://s3.amazonaws.com/backdoored-io-images/1.36.252.1462017-03-19T232824.635507.jpg",
+  "labels" : [
+    {
+      "name" : "Coat",
+      "confidence" : 51.21082
+    },
+    {
+      "name" : "Overcoat",
+      "confidence" : 51.21082
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id" : "1.36.180.642017-07-18T125746.562272",
+  "url" : "https://s3.amazonaws.com/backdoored-io-images/1.36.180.642017-07-18T125746.562272.jpg",
+  "labels" : [
+    {
+      "name" : "Bench",
+      "confidence" : 89.92401
+    },
+    {
+      "name" : "Chair",
+      "confidence" : 84.313194
+    },
+    {
+      "name" : "Furniture",
+      "confidence" : 84.313194
+    },
+    {
+      "name" : "Alley",
+      "confidence" : 60.125862
+    },
+    {
+      "name" : "Alleyway",
+      "confidence" : 60.125862
+    },
+    {
+      "name" : "Road",
+      "confidence" : 60.125862
+    },
+    {
+      "name" : "Street",
+      "confidence" : 60.125862
+    },
+    {
+      "name" : "Town",
+      "confidence" : 60.125862
+    },
+    {
+      "name" : "Asphalt",
+      "confidence" : 57.572704
+    },
+    {
+      "name" : "Tarmac",
+      "confidence" : 57.572704
+    },
+    {
+      "name" : "Lighting",
+      "confidence" : 50.80491
+    }
+  ]
+}

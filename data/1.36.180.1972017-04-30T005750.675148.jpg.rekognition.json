@@ -1,0 +1,42 @@
+{
+  "id" : "1.36.180.1972017-04-30T005750.675148",
+  "url" : "https://s3.amazonaws.com/backdoored-io-images/1.36.180.1972017-04-30T005750.675148.jpg",
+  "labels" : [
+    {
+      "name" : "Hostel",
+      "confidence" : 75.42672
+    },
+    {
+      "name" : "Lighting",
+      "confidence" : 68.86649
+    },
+    {
+      "name" : "Apartment",
+      "confidence" : 54.60316
+    },
+    {
+      "name" : "Housing",
+      "confidence" : 54.60316
+    },
+    {
+      "name" : "Indoors",
+      "confidence" : 54.60316
+    },
+    {
+      "name" : "Room",
+      "confidence" : 54.60316
+    },
+    {
+      "name" : "Interior Design",
+      "confidence" : 51.850353
+    },
+    {
+      "name" : "Lobby",
+      "confidence" : 50.995182
+    },
+    {
+      "name" : "Reception",
+      "confidence" : 50.995182
+    }
+  ]
+}

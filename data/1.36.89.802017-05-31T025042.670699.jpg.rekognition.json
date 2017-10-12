@@ -1,0 +1,58 @@
+{
+  "id" : "1.36.89.802017-05-31T025042.670699",
+  "url" : "https://s3.amazonaws.com/backdoored-io-images/1.36.89.802017-05-31T025042.670699.jpg",
+  "labels" : [
+    {
+      "name" : "People",
+      "confidence" : 98.84008
+    },
+    {
+      "name" : "Person",
+      "confidence" : 98.84012
+    },
+    {
+      "name" : "Human",
+      "confidence" : 98.78035
+    },
+    {
+      "name" : "Bowl",
+      "confidence" : 93.687645
+    },
+    {
+      "name" : "Chair",
+      "confidence" : 87.1749
+    },
+    {
+      "name" : "Furniture",
+      "confidence" : 87.1749
+    },
+    {
+      "name" : "Machine",
+      "confidence" : 71.31805
+    },
+    {
+      "name" : "Console",
+      "confidence" : 51.795834
+    },
+    {
+      "name" : "Indoors",
+      "confidence" : 51.475025
+    },
+    {
+      "name" : "Interior Design",
+      "confidence" : 51.475025
+    },
+    {
+      "name" : "Room",
+      "confidence" : 51.475025
+    },
+    {
+      "name" : "Child",
+      "confidence" : 50.696194
+    },
+    {
+      "name" : "Kid",
+      "confidence" : 50.696194
+    }
+  ]
+}
