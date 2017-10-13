@@ -2,14 +2,14 @@ import os
 import json
 
 DATA_FOLDER = "../../data"
-OUTPUT_FILE = DATA_FOLDER + "/../output.csv"
+OUTPUT_FILE = DATA_FOLDER + "/../universe.csv"
 
 
 def main():
     print("Establishing dimensionality of this universe")
     universe_of_labels = calculate_dimensionality()
     print("There are " + str(len(universe_of_labels)) + " dimensions in this universe.")
-    print(universe_of_labels)
+    #print(universe_of_labels)
     output_file = open(OUTPUT_FILE, "w")
     print ("Writing universe to: " + output_file.name)
     write_header(output_file, universe_of_labels)
@@ -29,9 +29,12 @@ def write_header(output_file, universe_of_labels):
         output_file.write("," + universal_label)
 
 
+
+
 def build_universe(output_file, universe_of_labels):
+    #TODO extract directory walk to partial function
     for dirname, dirnames, filenames in os.walk(DATA_FOLDER):
-        print("Processing files in: " + dirname)
+        #print("Processing files in: " + dirname)
         for filename in filenames:
             # print(filename)
             content = readfile(dirname, filename)
@@ -50,7 +53,7 @@ def build_universe(output_file, universe_of_labels):
 def calculate_dimensionality():
     universe_of_labels = set()
     for dirname, dirnames, filenames in os.walk(DATA_FOLDER):
-        print("Processing files in: " + dirname)
+        #print("Processing files in: " + dirname)
         for filename in filenames:
             # print(filename)
             content = readfile(dirname, filename)
