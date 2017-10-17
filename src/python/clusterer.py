@@ -15,12 +15,12 @@ INPUT_FILE = "universe.csv"
 
 def main():
     print("Loading universe")
-    labels, ids, values = parse_file(INPUT_FOLDER, INPUT_FILE)
+    features, ids, values = parse_file(INPUT_FOLDER, INPUT_FILE)
     kmeans = KMeans(n_clusters=NUM_CLUSTERS).fit(values)
     for i in range(len(ids)):
         print(ids[i], kmeans.labels_[i])
-
-    pca = PCA(n_components=3).fit(values)
+    #print(features)
+    pca = PCA(n_components= len(features)).fit(values)
     pca_2d = pca.transform(values)
     pl.figure('Reference Plot')
     pl.scatter(pca_2d[:, 0], pca_2d[:, 1])
@@ -33,20 +33,20 @@ def main():
 
 def parse_file(dirname, filename):
     values = []
-    labels = []
+    features = []
     ids =[]
     with open(os.path.join(dirname, filename), "r") as csvfile:
         reader = csv.reader(csvfile)
         header_skipped = False
         for row in reader: # each row is a list
             if (not header_skipped):
-                labels = row[1:] #drop the "filename" title
+                features = row[1:] #drop the "filename" title
                 header_skipped = True
             else:
                 ids.append(row[0])
                 values.append(row[1:])
     csvfile.close()
-    return labels, ids, numpy.asfarray(values,float) #cast strings to floats
+    return features, ids, numpy.asfarray(values,float) #cast strings to floats
 
 
 if __name__ == "__main__":
