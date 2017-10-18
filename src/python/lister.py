@@ -10,10 +10,11 @@ OUTPUT_FILE = DATA_FOLDER + "/../featurelist.txt"
 def main():
     print("Finding feature occurrences")
     words = build_list_of_words()
+    words.sort()
     output_file = open(OUTPUT_FILE, "w")
     print ("Writing words to: " + output_file.name)
     for word in words:
-        output_file.write(word + " ")
+        output_file.write(word)
     shutdown(output_file)
 
 
@@ -34,7 +35,7 @@ def build_list_of_words():
                 # print (obj)
                 for label in obj:
                     #print(label["name"])
-                    words.append(label["name"]) #double words will map singly, e.g. "Interior Design" becomes Interior & Design
+                    words.append(label["name"] + "\n")
     return words
 
 
