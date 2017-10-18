@@ -27,6 +27,7 @@ def write_header(output_file, universe_of_labels):
     output_file.write("File Name")
     for universal_label in universe_of_labels:
         output_file.write("," + universal_label)
+    output_file.write("\n")
 
 
 
